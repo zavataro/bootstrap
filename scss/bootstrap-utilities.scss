@@ -1,6 +1,4 @@
 @use "mixins/banner";
-@include bsBanner(Utilities);
-
 // Configuration
 @use "functions";
 @use "variables";
@@ -17,3 +15,5 @@
 
 // Utilities
 @use "utilities/api";
+
+@include bsBanner(Utilities);
