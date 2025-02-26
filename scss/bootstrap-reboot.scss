@@ -1,10 +1,10 @@
-@import "mixins/banner";
+@use "mixins/banner";
 @include bsBanner(Reboot);
 
-@import "functions";
-@import "variables";
-@import "variables-dark";
-@import "maps";
-@import "mixins";
-@import "root";
-@import "reboot";
+@use "functions";
+@use "variables";
+@use "variables-dark";
+@use "maps";
+@use "mixins";
+@use "root";
+@use "reboot";
