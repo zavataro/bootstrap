@@ -1,19 +1,19 @@
-@import "mixins/banner";
+@use "mixins/banner";
 @include bsBanner(Utilities);
 
 // Configuration
-@import "functions";
-@import "variables";
-@import "variables-dark";
-@import "maps";
-@import "mixins";
-@import "utilities";
+@use "functions";
+@use "variables";
+@use "variables-dark";
+@use "maps";
+@use "mixins";
+@use "utilities";
 
 // Layout & components
-@import "root";
+@use "root";
 
 // Helpers
-@import "helpers";
+@use "helpers";
 
 // Utilities
-@import "utilities/api";
+@use "utilities/api";
