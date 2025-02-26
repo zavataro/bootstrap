@@ -1,7 +1,5 @@
 @use "mixins/banner";
-@include bsBanner(Grid);
 
-$include-column-box-sizing: true !default;
 
 @use "functions";
 @use "variables";
@@ -21,6 +19,13 @@ $include-column-box-sizing: true !default;
 @use "utilities";
 // Only use the utilities we need
 // stylelint-disable-next-line scss/dollar-variable-default
+
+@import "utilities/api";
+
+@include bsBanner(Grid);
+
+$include-column-box-sizing: true !default;
+
 $utilities: map-get-multiple(
   $utilities,
   (
@@ -58,5 +63,3 @@ $utilities: map-get-multiple(
     "padding-start",
   )
 );
-
-@import "utilities/api";
