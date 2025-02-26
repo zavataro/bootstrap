@@ -20,7 +20,7 @@
 // Only use the utilities we need
 // stylelint-disable-next-line scss/dollar-variable-default
 
-@import "utilities/api";
+@use "utilities/api";
 
 @include bsBanner(Grid);
 
