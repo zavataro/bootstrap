@@ -1,5 +1,4 @@
 @use "mixins/banner";
-@include bsBanner(Reboot);
 
 @use "functions";
 @use "variables";
@@ -8,3 +7,5 @@
 @use "mixins";
 @use "root";
 @use "reboot";
+
+@include bsBanner(Reboot);
